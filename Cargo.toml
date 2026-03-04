@@ -1,0 +1,12 @@
+[package]
+name = "holycontainer"
+version = "1.0.0"
+edition = "2021"
+description = "A from-scratch cross-platform container runtime in pure Rust — zero third-party dependencies"
+authors = ["HolyFL"]
+license = "MIT"
+readme = "README.md"
+
+# ZERO dependencies. Every syscall, Win32 API call, tar header, and BPF instruction
+# is hand-rolled from raw FFI. This is the real deal.
+[dependencies]

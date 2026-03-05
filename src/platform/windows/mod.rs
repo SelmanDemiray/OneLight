@@ -5,6 +5,12 @@ pub mod job;
 pub mod sandbox;
 pub mod filesystem;
 pub mod network;
+#[allow(non_snake_case, non_camel_case_types, non_upper_case_globals, dead_code)]
+pub mod whp;
+#[allow(dead_code)]
+pub mod vmm;
+#[allow(dead_code)]
+pub mod virtio;
 
 use std::path::Path;
 

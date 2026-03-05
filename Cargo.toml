@@ -1,8 +1,8 @@
 [package]
 name = "holycontainer"
-version = "1.0.0"
+version = "2.0.0"
 edition = "2021"
-description = "A from-scratch cross-platform container runtime in pure Rust — zero third-party dependencies"
+description = "Full container runtime with image pulling, micro-hypervisor, and orchestration — zero dependencies, pure Rust"
 authors = ["HolyFL"]
 license = "MIT"
 readme = "README.md"
